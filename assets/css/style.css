@@ -1,0 +1,147 @@
+* {
+    scroll-padding-top: 140px;
+}
+
+body {
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+}
+
+.nameTitle {
+    font-size: 45px;
+}
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    min-height: 100px;
+    background-color: rgb(10, 10, 20) !important;
+    border-radius: 25px;
+    z-index: 10;
+    border: 0.5px solid rgb(40, 40, 40);
+}
+
+.navbar h1 {
+    margin-left: 25px;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.heroBanner {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    background-image: url(../images/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.jumbotron img {
+    height: 200px;
+}
+
+.caption {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+#about {
+    border-radius: 25px;
+    background-color: rgb(10, 10, 20);
+    color: white;
+}
+
+#about h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#work {
+    border-radius: 25px;
+    background-color: rgb(10, 10, 20);
+    color: white;
+}
+
+#work h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 25px;
+}
+
+#contact {
+    border-radius: 25px;
+    background-color: rgb(10, 10, 20);
+    color: white;
+}
+
+#contact h1 {
+    margin-bottom: 75px;
+    font-size: 40px;
+}
+
+.contactIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#telephone {
+    display: block;
+    background-image: url(../images/phone-call.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+#github {
+    display: block;
+    background-image: url(../images/github.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
+
+#linkedin {
+    display: block;
+    background-image: url(../images/linkedin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+}
