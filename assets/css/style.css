@@ -72,24 +72,13 @@ body {
     justify-content:flex-end;
 }
 
-#about {
+#about, #skills, #work, #contact, .footer {
     border-radius: 25px;
     background-color: rgb(10, 10, 20);
     color: white;
 }
 
-#about h1 {
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-#skills {
-    border-radius: 25px;
-    background-color: rgb(10, 10, 20);
-    color: white;
-}
-
-#skills h1 {
+#about h1, #skills h1, #work h1, #contact h1 {
     margin-bottom: 30px;
     font-size: 40px;
 }
@@ -101,17 +90,6 @@ body {
 .progress-bar {
     background-color: rgb(30, 30, 140);
     color: rgb(140, 140, 140);
-}
-
-#work {
-    border-radius: 25px;
-    background-color: rgb(10, 10, 20);
-    color: white;
-}
-
-#work h1 {
-    margin-bottom: 30px;
-    font-size: 40px;
 }
 
 .card {
@@ -132,17 +110,6 @@ body {
 
 .card-body {
     padding: 30px;
-}
-
-#contact {
-    border-radius: 25px;
-    background-color: rgb(10, 10, 20);
-    color: white;
-}
-
-#contact h1 {
-    margin-bottom: 75px;
-    font-size: 40px;
 }
 
 .contactIcons {
@@ -191,8 +158,6 @@ form {
     align-items: center;
     justify-content: center;
     min-height: 50px;
-    border-radius: 25px;
-    background-color: rgb(10, 10, 20);
 }
 
 .footer a {
